@@ -1,0 +1,25 @@
+﻿  cpu_core.c
+  cpu_c.c
+  lib_ascii.c
+  lib_math.c
+  lib_mem.c
+  lib_str.c
+  os_cpu_c.c
+  os_core.c
+  os_dbg_r.c
+  os_flag.c
+  os_mbox.c
+  os_mem.c
+  os_mutex.c
+  os_q.c
+  os_sem.c
+  os_task.c
+  os_time.c
+  os_tmr.c
+  bsp_cpu.c
+  app_hooks.c
+  正在產生程式碼...
+  正在編譯...
+  main.c
+  正在產生程式碼...
+  OS2.vcxproj -> C:\Users\chanpeng\Desktop\RTOS_TA\given_hw\Microsoft\Windows\Kernel\OS2\VS\Debug\OS2.exe

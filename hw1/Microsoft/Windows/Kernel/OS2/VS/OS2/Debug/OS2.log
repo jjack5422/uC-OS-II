@@ -1,0 +1,3 @@
+﻿  app_hooks.c
+C:\Users\zzz90\Desktop\embedded OS\ucosii\ucosii\ucosii\Microsoft\Windows\Kernel\OS2\app_hooks.c(79,27): warning C4013: 'atoi' 未定義; 假設 extern 傳回整數
+  OS2.vcxproj -> C:\Users\zzz90\Desktop\embedded OS\ucosii\ucosii\ucosii\Microsoft\Windows\Kernel\OS2\VS\Debug\OS2.exe

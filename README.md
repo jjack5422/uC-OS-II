@@ -1,9 +1,9 @@
 # uC-OS-II
-HW1 觀察任務context switch狀況
+# HW1 觀察任務context switch狀況
 
   1.app_hooks.c -> App_TaskSwHook 觀察發生context switch時當前任務以及下個任務
   
-PA1 排程 RM 、 FIFO(not finish)
+# PA1 排程 RM 、 FIFO(not finish)
 
   1.os_cores.c -> OS_IntExit()發生context switch時代表preempt發生
   
@@ -18,7 +18,7 @@ PA1 排程 RM 、 FIFO(not finish)
   6.main.c -> task() 模擬任務占用CPU，並計算task ArriveTime、Deadline等等
   
 
-PA2 排程 EDF
+# PA2 排程 EDF
 
   1.os_core.c -> os_schedNew() 使用OS_TCB* ptcb搜尋OSTCBList，找出earliestDeadline = choosePrio並設定OSPrioHighRdy = choosePrio
   

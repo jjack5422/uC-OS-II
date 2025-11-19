@@ -1,8 +1,0 @@
-﻿  main.c
-C:\Users\no\Desktop\uC-OS-II-1102\uC-OS-II-master\1029\Microsoft\Windows\Kernel\OS2\main.c(176,16): warning C4013: 'malloc' 未定義; 假設 extern 傳回整數
-C:\Users\no\Desktop\uC-OS-II-1102\uC-OS-II-master\1029\Microsoft\Windows\Kernel\OS2\main.c(176,14): warning C4047: '=': 'OS_STK **' 與 'int' 間接取值的層級不同
-C:\Users\no\Desktop\uC-OS-II-1102\uC-OS-II-master\1029\Microsoft\Windows\Kernel\OS2\main.c(205,21): warning C4047: '=': 'OS_STK *' 與 'int' 間接取值的層級不同
-C:\Users\no\Desktop\uC-OS-II-1102\uC-OS-II-master\1029\Microsoft\Windows\Kernel\OS2\main.c(232,16): warning C4477: 'printf' : 格式字串 '%10x' 需要 'unsigned int' 類型的引數，但 variadic 引數 2 的類型為 'os_tcb *'
-C:\Users\no\Desktop\uC-OS-II-1102\uC-OS-II-master\1029\Microsoft\Windows\Kernel\OS2\main.c(232,16): warning C4477: 'printf' : 格式字串 '%10x' 需要 'unsigned int' 類型的引數，但 variadic 引數 3 的類型為 'OS_TCB *'
-C:\Users\no\Desktop\uC-OS-II-1102\uC-OS-II-master\1029\Microsoft\Windows\Kernel\OS2\main.c(232,16): warning C4477: 'printf' : 格式字串 '%10x' 需要 'unsigned int' 類型的引數，但 variadic 引數 4 的類型為 'os_tcb *'
-  OS2.vcxproj -> C:\Users\no\Desktop\uC-OS-II-1102\uC-OS-II-master\1029\Microsoft\Windows\Kernel\OS2\VS\Debug\OS2.exe

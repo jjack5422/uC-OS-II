@@ -1,0 +1,66 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\zzz90\\Desktop\\RTOS_M11407517_PA1\\1125\\Microsoft\\Windows\\Kernel\\OS2\\VS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5129D7B8-8E33-4F0F-9072-FC39426C859A}|OS2.vcxproj|C:\\Users\\zzz90\\Desktop\\RTOS_M11407517_PA1\\1125\\Microsoft\\Windows\\Kernel\\OS2\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5129D7B8-8E33-4F0F-9072-FC39426C859A}|OS2.vcxproj|C:\\Users\\zzz90\\Desktop\\RTOS_M11407517_PA1\\1125\\Micrium\\Software\\uCOS-II\\Source\\os_core.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5129D7B8-8E33-4F0F-9072-FC39426C859A}|OS2.vcxproj|C:\\Users\\zzz90\\Desktop\\RTOS_M11407517_PA1\\1125\\Microsoft\\Windows\\Kernel\\OS2\\app_hooks.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "app_hooks.c",
+              "DocumentMoniker": "C:\\Users\\zzz90\\Desktop\\RTOS_M11407517_PA1\\1125\\Microsoft\\Windows\\Kernel\\OS2\\app_hooks.c",
+              "RelativeDocumentMoniker": "..\\app_hooks.c",
+              "ToolTip": "C:\\Users\\zzz90\\Desktop\\RTOS_M11407517_PA1\\1125\\Microsoft\\Windows\\Kernel\\OS2\\app_hooks.c",
+              "RelativeToolTip": "..\\app_hooks.c",
+              "ViewState": "AgIAAF8BAAAAAAAAAAAAAHkBAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-11-26T17:02:25.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "os_core.c",
+              "DocumentMoniker": "C:\\Users\\zzz90\\Desktop\\RTOS_M11407517_PA1\\1125\\Micrium\\Software\\uCOS-II\\Source\\os_core.c",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Micrium\\Software\\uCOS-II\\Source\\os_core.c",
+              "ToolTip": "C:\\Users\\zzz90\\Desktop\\RTOS_M11407517_PA1\\1125\\Micrium\\Software\\uCOS-II\\Source\\os_core.c",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Micrium\\Software\\uCOS-II\\Source\\os_core.c",
+              "ViewState": "AgIAAAIHAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-11-26T16:59:55.127Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.c",
+              "DocumentMoniker": "C:\\Users\\zzz90\\Desktop\\RTOS_M11407517_PA1\\1125\\Microsoft\\Windows\\Kernel\\OS2\\main.c",
+              "RelativeDocumentMoniker": "..\\main.c",
+              "ToolTip": "C:\\Users\\zzz90\\Desktop\\RTOS_M11407517_PA1\\1125\\Microsoft\\Windows\\Kernel\\OS2\\main.c",
+              "RelativeToolTip": "..\\main.c",
+              "ViewState": "AgIAAPIAAAAAAAAAAAAAAAMBAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-11-26T16:57:36.948Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

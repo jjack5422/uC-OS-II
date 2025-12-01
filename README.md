@@ -15,6 +15,12 @@
   - os_core.c -> os_schedNew() 使用OS_TCB* ptcb搜尋OSTCBList，找出earliestDeadline = choosePrio並設定OSPrioHighRdy = choosePrio  
   - os_core.c -> os_schedNew() 相同deadline時根據taskID做排程  
   ### CUS scheduler implement  
+  - ucos_ii.h -> 建立新structure存放aperiodic job資料  
+  - app_hooks.c -> 讀取CUS server size、匯入apperiodicjob.tex內容資料  
+  - App_TimeTickHook -> 處理apperiodic job到達與控制並計算新的CUS server deadline
+  - App_TimeTickHook -> 時間到達resume CUS task讓CUS server執行aperiodic job工作
+  - main.c -> 判斷CUS server size是否大於0
+  - main.c -> cus_task function 負責處理分配到的aperiodic job工作
     
               
   

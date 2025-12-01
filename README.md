@@ -14,7 +14,7 @@
 ## PA2 排程 EDF  
   - os_core.c -> os_schedNew() 使用OS_TCB* ptcb搜尋OSTCBList，找出earliestDeadline = choosePrio並設定OSPrioHighRdy = choosePrio  
   - os_core.c -> os_schedNew() 相同deadline時根據taskID做排程  
-  ###CUS scheduler implement  
-    1.
+  ### CUS scheduler implement  
+    
               
   

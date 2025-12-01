@@ -3,7 +3,7 @@
   1.app_hooks.c -> App_TaskSwHook 觀察發生context switch時當前任務以及下個任務  
   
 ## PA1 排程 RM 、 FIFO(not finish)  
-  1.os_cores.c -> OS_IntExit()發生context switch時代表preempt發生  
+  - 1.os_cores.c -> OS_IntExit()發生context switch時代表preempt發生  
   2.os_cores.c -> OS_Sched()發生context switch時代表任務完成 主動釋放CPU使用權  
   3.os_time.c -> OSTimeDly() 更改為tick>=0u 避免tick=0u時不進入os_sched()   
   4.os_core.c -> OSTimeTick() 計數task remainTime 以及 搜尋是否有任務missdeadline   

@@ -1,0 +1,102 @@
+0	task( 3) is running	
+1	LockResource	task( 3)( 0)	R2
+1	task( 3) is running	
+2	task( 3) is running	
+3	UnlockResource	task( 3)( 0)	R2
+3	task( 3) is running	
+4	Completion	task( 3)( 0)	task( 1)( 0)	4	0	0	
+4	task( 1) is running	
+5	LockResource	task( 1)( 0)	R1
+5	task( 1) is running	
+6	task( 1) is running	
+7	task( 1) is running	
+8	task( 1) is running	
+9	task( 1) is running	
+10	UnlockResource	task( 1)( 0)	R1	
+10	Preemption	task( 1)( 0)	task( 2)( 0)	
+10	task( 2) is running	
+11	task( 2) is running	
+12	task( 2) is running	
+13	task( 2) is running	
+14	task( 2) is running	
+15	Completion	task( 2)( 0)	task( 1)( 0)	7	2	0	
+15	task( 1) is running	
+16	task( 1) is running	
+17	Completion	task( 1)( 0)	task(63)	16	0	8
+20	Preemption	task(63)	task( 3)( 1)	
+20	task( 3) is running	
+21	LockResource	task( 3)( 1)	R2
+21	task( 3) is running	
+22	task( 3) is running	
+23	UnlockResource	task( 3)( 1)	R2
+23	task( 3) is running	
+24	Completion	task( 3)( 1)	task(63)	4	0	0
+33	Preemption	task(63)	task( 1)( 1)	
+33	task( 1) is running	
+34	LockResource	task( 1)( 1)	R1
+34	task( 1) is running	
+35	task( 1) is running	
+36	task( 1) is running	
+37	task( 1) is running	
+38	task( 1) is running	
+39	UnlockResource	task( 1)( 1)	R1	
+39	Preemption	task( 1)( 1)	task( 2)( 1)	
+39	task( 2) is running	
+40	Preemption	task( 2)( 1)	task( 3)( 2)	
+40	task( 3) is running	
+41	LockResource	task( 3)( 2)	R2
+41	task( 3) is running	
+42	task( 3) is running	
+43	UnlockResource	task( 3)( 2)	R2
+43	task( 3) is running	
+44	Completion	task( 3)( 2)	task( 2)( 1)	4	0	0	
+44	task( 2) is running	
+45	task( 2) is running	
+46	task( 2) is running	
+47	task( 2) is running	
+48	Completion	task( 2)( 1)	task( 1)( 1)	10	1	4	
+48	task( 1) is running	
+49	task( 1) is running	
+50	Completion	task( 1)( 1)	task(63)	17	0	9
+60	Preemption	task(63)	task( 3)( 3)	
+60	task( 3) is running	
+61	LockResource	task( 3)( 3)	R2
+61	task( 3) is running	
+62	task( 3) is running	
+63	UnlockResource	task( 3)( 3)	R2
+63	task( 3) is running	
+64	Completion	task( 3)( 3)	task(63)	4	0	0
+65	Preemption	task(63)	task( 1)( 2)	
+65	task( 1) is running	
+66	LockResource	task( 1)( 2)	R1
+66	task( 1) is running	
+67	task( 1) is running	
+68	task( 1) is running	
+69	task( 1) is running	
+70	task( 1) is running	
+71	UnlockResource	task( 1)( 2)	R1	
+71	Preemption	task( 1)( 2)	task( 2)( 2)	
+71	task( 2) is running	
+72	task( 2) is running	
+73	task( 2) is running	
+74	task( 2) is running	
+75	task( 2) is running	
+76	Completion	task( 2)( 2)	task( 1)( 2)	8	3	0	
+76	task( 1) is running	
+77	task( 1) is running	
+78	Completion	task( 1)( 2)	task(63)	13	0	5
+80	Preemption	task(63)	task( 3)( 4)	
+80	task( 3) is running	
+81	LockResource	task( 3)( 4)	R2
+81	task( 3) is running	
+82	task( 3) is running	
+83	UnlockResource	task( 3)( 4)	R2
+83	task( 3) is running	
+84	Completion	task( 3)( 4)	task(63)	4	0	0
+97	Preemption	task(63)	task( 1)( 3)	
+97	task( 1) is running	
+98	Preemption	task( 1)( 3)	task( 2)( 3)	
+98	task( 2) is running	
+99	task( 2) is running	
+100	Preemption	task( 2)( 3)	task( 3)( 5)	
+100	task( 3) is running	

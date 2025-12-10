@@ -1,0 +1,40 @@
+﻿  os_cpu_c.c
+  os_core.c
+C:\Users\zzz90\Desktop\uC-OS-II-main\uC-OS-II-main\1201\Micrium\Software\uCOS-II\Source\os_core.c(644,5): warning C4013: 'OSInitHookEnd' 未定義; 假設 extern 傳回整數
+C:\Users\zzz90\Desktop\uC-OS-II-main\uC-OS-II-main\1201\Micrium\Software\uCOS-II\Source\os_core.c(736,33): warning C4013: 'LOG_print' 未定義; 假設 extern 傳回整數
+C:\Users\zzz90\Desktop\uC-OS-II-main\uC-OS-II-main\1201\Micrium\Software\uCOS-II\Source\os_core.c(1029,13): warning C4013: 'exit' 未定義; 假設 extern 傳回整數
+C:\Users\zzz90\Desktop\uC-OS-II-main\uC-OS-II-main\1201\Micrium\Software\uCOS-II\Source\os_core.c(2391,16): warning C4477: 'printf' : 格式字串 '%x' 需要 'unsigned int' 類型的引數，但 variadic 引數 1 的類型為 'os_tcb *'
+C:\Users\zzz90\Desktop\uC-OS-II-main\uC-OS-II-main\1201\Micrium\Software\uCOS-II\Source\os_core.c(2392,16): warning C4477: 'printf' : 格式字串 '%x' 需要 'unsigned int' 類型的引數，但 variadic 引數 1 的類型為 'OS_TCB *'
+C:\Users\zzz90\Desktop\uC-OS-II-main\uC-OS-II-main\1201\Micrium\Software\uCOS-II\Source\os_core.c(2393,16): warning C4477: 'printf' : 格式字串 '%x' 需要 'unsigned int' 類型的引數，但 variadic 引數 1 的類型為 'os_tcb *'
+  os_dbg_r.c
+  os_flag.c
+  os_mbox.c
+  os_mem.c
+  os_mutex.c
+C:\Users\zzz90\Desktop\uC-OS-II-main\uC-OS-II-main\1201\Micrium\Software\uCOS-II\Source\os_mutex.c(475,13): warning C4101: 'ptcb': 未參考的區域變數
+C:\Users\zzz90\Desktop\uC-OS-II-main\uC-OS-II-main\1201\Micrium\Software\uCOS-II\Source\os_mutex.c(477,16): warning C4101: 'y': 未參考的區域變數
+C:\Users\zzz90\Desktop\uC-OS-II-main\uC-OS-II-main\1201\Micrium\Software\uCOS-II\Source\os_mutex.c(476,15): warning C4101: 'pevent2': 未參考的區域變數
+C:\Users\zzz90\Desktop\uC-OS-II-main\uC-OS-II-main\1201\Micrium\Software\uCOS-II\Source\os_mutex.c(474,16): warning C4101: 'rdy': 未參考的區域變數
+  os_q.c
+  os_sem.c
+  os_task.c
+  os_time.c
+  os_tmr.c
+  app_hooks.c
+C:\Users\zzz90\Desktop\uC-OS-II-main\uC-OS-II-main\1201\Microsoft\Windows\Kernel\OS2\app_hooks.c(106,27): warning C4013: 'atoi' 未定義; 假設 extern 傳回整數
+  main.c
+C:\Users\zzz90\Desktop\uC-OS-II-main\uC-OS-II-main\1201\Microsoft\Windows\Kernel\OS2\main.c(225,17): warning C4013: 'LOG_print' 未定義; 假設 extern 傳回整數
+C:\Users\zzz90\Desktop\uC-OS-II-main\uC-OS-II-main\1201\Microsoft\Windows\Kernel\OS2\main.c(207,32): warning C4244: '正在初始化': 將 'INT16U' 轉換為 'INT8U'，由於類型不同，可能導致資料遺失
+C:\Users\zzz90\Desktop\uC-OS-II-main\uC-OS-II-main\1201\Microsoft\Windows\Kernel\OS2\main.c(209,11): warning C4101: 'target_prio_log': 未參考的區域變數
+C:\Users\zzz90\Desktop\uC-OS-II-main\uC-OS-II-main\1201\Microsoft\Windows\Kernel\OS2\main.c(208,11): warning C4101: 'current_prio_log': 未參考的區域變數
+C:\Users\zzz90\Desktop\uC-OS-II-main\uC-OS-II-main\1201\Microsoft\Windows\Kernel\OS2\main.c(206,11): warning C4101: 'err': 未參考的區域變數
+C:\Users\zzz90\Desktop\uC-OS-II-main\uC-OS-II-main\1201\Microsoft\Windows\Kernel\OS2\main.c(387,16): warning C4013: 'malloc' 未定義; 假設 extern 傳回整數
+C:\Users\zzz90\Desktop\uC-OS-II-main\uC-OS-II-main\1201\Microsoft\Windows\Kernel\OS2\main.c(387,14): warning C4047: '=': 'OS_STK **' 與 'int' 間接取值的層級不同
+C:\Users\zzz90\Desktop\uC-OS-II-main\uC-OS-II-main\1201\Microsoft\Windows\Kernel\OS2\main.c(411,21): warning C4047: '=': 'OS_STK *' 與 'int' 間接取值的層級不同
+C:\Users\zzz90\Desktop\uC-OS-II-main\uC-OS-II-main\1201\Microsoft\Windows\Kernel\OS2\main.c(415,29): warning C4244: '函式': 將 'INT16U' 轉換為 'INT8U'，由於類型不同，可能導致資料遺失
+C:\Users\zzz90\Desktop\uC-OS-II-main\uC-OS-II-main\1201\Microsoft\Windows\Kernel\OS2\main.c(479,16): warning C4477: 'printf' : 格式字串 '%10x' 需要 'unsigned int' 類型的引數，但 variadic 引數 2 的類型為 'os_tcb *'
+C:\Users\zzz90\Desktop\uC-OS-II-main\uC-OS-II-main\1201\Microsoft\Windows\Kernel\OS2\main.c(479,16): warning C4477: 'printf' : 格式字串 '%10x' 需要 'unsigned int' 類型的引數，但 variadic 引數 3 的類型為 'OS_TCB *'
+C:\Users\zzz90\Desktop\uC-OS-II-main\uC-OS-II-main\1201\Microsoft\Windows\Kernel\OS2\main.c(479,16): warning C4477: 'printf' : 格式字串 '%10x' 需要 'unsigned int' 類型的引數，但 variadic 引數 4 的類型為 'os_tcb *'
+C:\Users\zzz90\Desktop\uC-OS-II-main\uC-OS-II-main\1201\Microsoft\Windows\Kernel\OS2\main.c(369,11): warning C4101: 'err': 未參考的區域變數
+  正在產生程式碼...
+  OS2.vcxproj -> C:\Users\zzz90\Desktop\uC-OS-II-main\uC-OS-II-main\1201\Microsoft\Windows\Kernel\OS2\VS\Debug\OS2.exe
